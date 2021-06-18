@@ -16,18 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="erJ-3E-sQG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="erJ-3E-sQG">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="erJ-3E-sQG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="BnU-yf-ZfH"/>
+                            <constraint firstAttribute="trailing" secondItem="erJ-3E-sQG" secondAttribute="trailing" id="Hz5-QJ-n3f"/>
+                            <constraint firstItem="erJ-3E-sQG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KY8-qa-c9M"/>
+                            <constraint firstAttribute="bottom" secondItem="erJ-3E-sQG" secondAttribute="bottom" id="zm8-20-csT"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.390625" y="374.67057101024886"/>
         </scene>
     </scenes>
     <resources>
