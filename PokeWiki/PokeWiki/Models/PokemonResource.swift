@@ -14,5 +14,4 @@ struct PokemonResource: Codable {
 
     let results: [Resource]
     let next: String?
-    let previous: String?
 }
